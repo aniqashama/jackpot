@@ -1,0 +1,262 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* All Common CSS End */
+
+/* Header Part Start */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 111;
+}
+.nav-link {
+	color: #944bff;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right:50px !important;
+    font-family: 'Nunito', sans-serif;
+    transition: .4s;
+}
+.nav-item :hover{
+    color: #ff39dc;
+}
+.menu_button a{
+    padding: 14px 30px;
+    margin-left: 20px;
+    background: linear-gradient(#9b4dfa, #5c16cd);
+    border-bottom: 6px solid #3a0090;
+    border-radius: 5px;
+    color: #ffff;
+    text-shadow: 3px 5px 3px #5813b8;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+.menu_button a:hover{
+    background: linear-gradient(#ff39dc, #a90286);
+    border-bottom: 3px solid #661355;
+    border-radius: 5px;
+    color: #ffff;
+    text-shadow: 3px 5px 3px #a60084;
+}
+/* Header Part End */
+
+
+
+/* Banner Part Start */
+#banner{
+    height: 520px;
+    width: 100%;
+    background: #150035;
+    position: relative;
+}
+.banner_items h2{
+    padding-top: 225px;
+    padding-bottom: 12px;
+    color: #feb903;
+    text-shadow: 0px 0px 15px rgba(254, 187, 3, 0.7);
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+.banner_items h3{
+    padding-bottom: 200px;
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+
+.banner_countdown{
+    width: 1170px;
+    height:230px;
+    background-color: #6620d2;
+    position: absolute;
+    bottom:-45%;
+    left:13%;
+    transform: translateY(-50%);
+    z-index: 11;
+}
+/* Banner Part End */
+
+/* Games Part Start */
+#related_games{
+    background: #0b001b;
+    padding-top: 185px;
+    padding-bottom: 100px;
+}
+.games_img{
+    margin-top: 30px;
+    position: relative;
+    height: 355px;
+    width: 370px;
+}
+.games_overly{
+    height: 355px;
+    width: 370px;
+    background: rgba(21, 0, 53, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+.games_name{
+    position: absolute;
+    top: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+.games_button a{
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 30px;
+    background: linear-gradient(#994bf9, #5f1ace);
+    border-bottom: 6px solid #3a0090;
+    border-radius: 5px;
+    color: #ffff;
+    text-shadow: 3px 5px 3px #5e19c0;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+.games_img:hover .games_overly{
+    visibility: visible;
+    opacity: 1;
+}
+/* Games Part End */
+
+/* Payment Part Start */
+#payment{
+    background: linear-gradient(#9d4efc, #5810c9);
+    border-bottom: 6px solid #3a0090;
+}
+.subscribe h2{
+    padding-top: 32px;
+    padding-bottom: 16px;
+    color: #ffff;
+    text-shadow: 5px 5px 5px #5813b8;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+.subscribe form{
+    background: none;
+    display: flex !important;
+    padding-bottom: 28px;
+}
+form input{
+    background: none;
+    border: 1px solid #3a0090;
+    outline: none;
+    padding-left: 15px;
+    width: 547px;
+    height: 38px;
+    font-size: 16px;
+    color: #3a0090;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+form button{
+    background: none;
+    border: 1px solid #3a0090;
+    outline: none;
+    color: #ffff;
+    width: 45px;
+    height: 38px;
+    cursor: pointer;
+}
+form button:hover{
+    background: #ff39dc;
+}
+.payment_methods h2{
+    padding-top: 32px;
+    padding-bottom: 16px;
+    color: #ffff;
+    text-shadow: 5px 5px 5px #5813b8;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+/* Payment Part End */
+
+/* About Part Start */
+#about{
+    background: #0b001b;
+}
+#about h2{
+    padding-top: 55px;
+    padding-bottom: 30px;
+    color: #ffff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+.about_jackpot p{
+    padding: 0 35px 35px 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Nunito', sans-serif;
+    line-height: 20px;
+}
+.links a{
+    padding-right: 70px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    line-height: 20px;
+}
+.info a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    line-height: 20px;
+}
+.line{
+    height: 4px;
+    background: #0000;
+}
+.line hr{
+    color: #290a59;
+}
+/* About Part End */
+
+/* Copyright Part Start */
+#copyright{
+    background: #0b001b;
+}
+.cp-text{
+    padding: 20px 0px;
+    color: #ffff;
+}
+/* Copyright Part End */
+/* Header Part Start */
+/* Header Part End */
